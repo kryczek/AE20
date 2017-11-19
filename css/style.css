@@ -12,5 +12,5 @@
 
 /* 2. Header */
 .header-section {
-  background: 'img\header-cover.png'
+    background: url(../img/header-cover.png);
 }
