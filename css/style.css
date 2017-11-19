@@ -69,6 +69,10 @@ p.big-text:after {
   color: white;
 }
 
+.header-section h2 {
+  margin-top: 90px;
+}
+
 /* 4. Buttons */
 .button {
   background: #C30016;
