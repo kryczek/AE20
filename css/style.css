@@ -25,7 +25,7 @@ body {
 }
 
 .align-right {
-  align: right;
+  text-align: right;
 }
 
 /* 3. Header */
@@ -37,6 +37,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   min-height: 852px;
+  padding: 10px 0px;
 }
 
 /* 4. Buttons */
@@ -48,8 +49,13 @@ body {
   color: white;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  padding: 18px 35px;
-  max-width: 333px;
   text-decoration: none;
   font-weight: 900;
+}
+.button-long-width {
+  padding: 18px 65px;
+}
+
+.button-normal-width {
+  padding: 18px 35px;
 }
