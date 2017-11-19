@@ -31,7 +31,6 @@ body {
 /* 3. Header */
 .header-section {
   background: url(../img/header-cover.png) 70% 50% no-repeat;
-  background-size: 120%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,7 +52,7 @@ body {
   font-weight: 900;
 }
 .button-long-width {
-  padding: 18px 65px;
+  padding: 18px 75px;
 }
 
 .button-normal-width {
