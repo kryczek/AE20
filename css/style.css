@@ -20,6 +20,10 @@ h2 {
   font-weight: 900;
 }
 
+p {
+  line-height: 32px;
+}
+
 .container-1220 {
   max-width: 1220px;
   margin: 0 auto;
