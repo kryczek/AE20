@@ -20,27 +20,6 @@ body {
   padding: 20px;
 }
 
-/* 2. Fonts */
-  @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,500');
-
-  @import url('https://fonts.googleapis.com/css?family=Roboto:300,900');
-@import url('https://fonts.googleapis.com/css?family=Muli:300,900');
-  @font-face {
-      font-family: 'gilroy-extrabold';
-      src: url('../fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
-           url('../fonts/gilroy-extrabold-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-  }
-
-  @font-face {
-      font-family: 'gilroy-light';
-      src: url('../fonts/gilroy-light-webfont.woff2') format('woff2'),
-           url('../fonts/gilroy-light-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-  }
-
 /* 3. Header */
 .header-section {
   background: url(../img/header-cover.png) 70% 50% no-repeat;
@@ -56,7 +35,7 @@ body {
 .button {
   background: #C30016;
   border-radius: 45.5px;
-  font-family: 'gilroy-extrabold', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 14px;
   color: white;
   letter-spacing: 1.75px;
@@ -64,6 +43,7 @@ body {
   padding: 24px;
   max-width: 333px;
   text-decoration: none;
+  font-weight: 900;
 }
 
 .text {
