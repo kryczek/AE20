@@ -15,7 +15,7 @@ body {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 26px;
   font-family: 'Muli', sans-serif;
   font-weight: 900;
 }
@@ -38,6 +38,21 @@ h2 {
   color: white
 }
 
+.big-text {
+  font-size: 42px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+p.big-text:after {
+    content: '';
+    display: block;
+    margin: 36px 0px;
+    background: #004EFF;
+    width: 100px;
+    height: 2px;
+}
+
 /* 3. Header */
 .header-section {
   background: url(../img/header-cover.png) 70% 50% no-repeat;
@@ -49,8 +64,9 @@ h2 {
   padding: 10px 0px;
 }
 
-.header-section h2 {
-  color: rgba(255,255,255,.5);
+.header-section h2,
+.header-section p{
+  color: white;
 }
 
 /* 4. Buttons */
