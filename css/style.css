@@ -95,6 +95,11 @@ i.zmdi {
 
 .zmdi-hc-fw {
     margin-left: 20px;
+    transition: all 0.3s ease;
+}
+
+a:hover .zmdi-hc-fw {
+  margin-left: 30px;
 }
 
 /* 4. Buttons */
@@ -108,11 +113,17 @@ i.zmdi {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 900;
+  transition: all 0.3s ease;
 }
+
 .button-long-width {
   padding: 18px 75px;
 }
 
 .button-normal-width {
   padding: 18px 35px;
+}
+
+.button:hover {
+  background: rgb(145,32,45);
 }
