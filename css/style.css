@@ -24,6 +24,13 @@ p {
   line-height: 32px;
 }
 
+a {
+  font-family: 'Muli', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .container-1220 {
   max-width: 1220px;
   margin: 0 auto;
@@ -62,6 +69,10 @@ p.big-text:after {
     height: 2px;
 }
 
+i.zmdi {
+    font-weight: bold;
+}
+
 /* 3. Header */
 .header-section {
   background: url(../img/header-cover.png) 70% 50% no-repeat;
@@ -80,6 +91,10 @@ p.big-text:after {
 
 .header-section h2 {
   margin-top: 90px;
+}
+
+.zmdi-hc-fw {
+    margin-left: 20px;
 }
 
 /* 4. Buttons */
