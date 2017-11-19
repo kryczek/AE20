@@ -23,7 +23,8 @@ body {
 
 /* 3. Header */
 .header-section {
-  background: url(../img/header-cover.png) center center;
+  background: url(../img/header-cover.png) center center no-repeat;
+  background-size: 120%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
