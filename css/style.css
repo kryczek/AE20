@@ -4,6 +4,10 @@
 */
 
 /* 1. General Style */
+body {
+  color: white;
+}
+
 .container-1220 {
   max-width: 1220px;
   margin: 0 auto;
