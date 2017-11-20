@@ -114,6 +114,11 @@ i.zmdi {
   color: white;
 }
 
+img.logo {
+  width: 100%;
+  height: auto;
+}
+
 .header-section h2,
 .header-section p{
   color: white;
