@@ -3,6 +3,7 @@
   2. Fonts
   3. Header
   4. Buttons
+  9. Footer
 */
 
 /* 1. General Style */
@@ -126,4 +127,14 @@ a:hover .zmdi-hc-fw {
 
 .button:hover {
   background: rgb(145,32,45);
+}
+
+/* 9. Footer */
+footer {
+  background: #004EFF;
+  padding: 35px 0;
+  bottom: 0;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-weight: 900;
 }
