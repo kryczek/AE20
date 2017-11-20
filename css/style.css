@@ -3,7 +3,8 @@
   2. Fonts
   3. Header
   4. Buttons
-  6. Author
+  6. Expectations
+  7. Author
   8. Occasion
   9. Footer
 */
@@ -154,9 +155,17 @@ a:hover .zmdi-hc-fw {
   background: rgb(145,32,45);
 }
 
-/* 6. Author */
+/* 6. Expectations */
+.car-photo {
+  min-height: 687px !important;
+  background: url(../img/car.png) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-.author-section {}
+/* 7. Author */
 
 .author-photo {
   min-height: 889px !important;
