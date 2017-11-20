@@ -181,12 +181,54 @@ a:hover .zmdi-hc-fw {
 
 .car-photo {
   min-height: 687px !important;
+  max-height: 687px;
   background: url(../img/car.png) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+.car-photo a {
+  color: white;
+}
+
+.watch-box {
+  text-align: center;
+  margin: 40% auto 60% auto;
+}
+
+.watch-box .zmdi-hc-fw {
+    margin-left: 0px;
+  }
+
+a.play-cirle {
+  display: block;
+  width: 59px;
+  height: 59px;
+  text-align: center;
+  margin: 0 auto 42px auto;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+a.play-cirle:hover {
+  background: white;
+}
+
+a.play-cirle .zmdi-hc-fw {
+    padding: 21px 9px;
+}
+
+a.play-cirle:hover .zmdi-hc-fw {
+  margin-left: 0px;
+  color: #004EFF;
+}
+
+a.watch-link:hover .zmdi-hc-fw {
+  margin-left: 10px;
+}
+
 
 /* 7. Author */
 
