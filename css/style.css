@@ -174,8 +174,36 @@ a:hover .zmdi-hc-fw {
 .features-section {
   background: #004EFF;
   color: white;
-  padding: 50px 0;
+  padding: 50px 0 30px;
   font-family: 'Muli', sans-serif;
+  font-size: 14px;
+}
+
+.features-section .zmdi-hc-fw {
+  margin: 0px 10px 70px 0px;
+  display: inline;
+  font-size: 26px;
+  float: left;
+  width: 59px;
+  height: 59px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.features-section > div > div > div:nth-child(1) > i {
+  padding: 14px 20px;
+}
+
+.features-section > div > div > div:nth-child(2) > i {
+  padding: 14px 18px;
+}
+
+.features-section > div > div > div:nth-child(3) > i {
+  padding: 14px 21px;
+}
+
+.features-section > div > div > div:nth-child(4) > i {
+  padding: 14px 17px;
 }
 
 /* 6. Expectations */
