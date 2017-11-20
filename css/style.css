@@ -55,6 +55,10 @@ a {
   padding: 20px;
 }
 
+.row {
+  margin: 0px !important;
+}
+
 .margin-top-25 {
   margin-top: 25px;
 }
