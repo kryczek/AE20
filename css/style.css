@@ -94,6 +94,10 @@ p.big-text:after {
     height: 2px;
 }
 
+li {
+  list-style-type: none;
+}
+
 i.zmdi {
     font-weight: bold;
 }
@@ -156,6 +160,20 @@ a:hover .zmdi-hc-fw {
 }
 
 /* 6. Expectations */
+.expect-list {
+  margin: 80px 0px;
+}
+
+.expect-list li {
+  line-height: 50px;
+}
+
+.expect-list .zmdi-hc-fw {
+    margin-left: 0px;
+    margin-right: 30px;
+    color: #004EFF;
+  }
+
 .car-photo {
   min-height: 687px !important;
   background: url(../img/car.png) center center no-repeat;
