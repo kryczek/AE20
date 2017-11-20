@@ -156,7 +156,7 @@ a:hover .zmdi-hc-fw {
 
 .author-photo {
   min-height: 889px !important;
-  background: url(../img/pawel-foto.jpg) center center no-repeat;
+  background: url(../img/pawel-foto.jpg) 40% 50% no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
