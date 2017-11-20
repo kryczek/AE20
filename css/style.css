@@ -3,6 +3,7 @@
   2. Fonts
   3. Header
   4. Buttons
+  5. Features
   6. Expectations
   7. Author
   8. Occasion
@@ -162,6 +163,15 @@ a:hover .zmdi-hc-fw {
 
 .button:hover {
   background: rgb(145,32,45);
+}
+
+/* 5. Features */
+
+.features-section {
+  background: #004EFF;
+  color: white;
+  padding: 35px 0;
+  font-family: 'Muli', sans-serif;
 }
 
 /* 6. Expectations */
