@@ -3,12 +3,13 @@
   2. Fonts
   3. Header
   4. Buttons
+  8. Occasion
   9. Footer
 */
 
 /* 1. General Style */
 body {
-  color: white;
+  color: #39393A;
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -19,6 +20,7 @@ h2 {
   font-size: 26px;
   font-family: 'Muli', sans-serif;
   font-weight: 900;
+  line-height: 0px;
 }
 
 p {
@@ -38,12 +40,22 @@ a {
   padding: 20px;
 }
 
+.container-860 {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .margin-top-25 {
   margin-top: 25px;
 }
 
 .margin-top-50 {
   margin-top: 50px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
 }
 
 .align-right {
@@ -83,6 +95,7 @@ i.zmdi {
   background-size: cover;
   min-height: 852px;
   padding: 10px 0px;
+  color: white;
 }
 
 .header-section h2,
@@ -92,6 +105,7 @@ i.zmdi {
 
 .header-section h2 {
   margin-top: 90px;
+  line-height: 32px;
 }
 
 .zmdi-hc-fw {
@@ -127,6 +141,22 @@ a:hover .zmdi-hc-fw {
 
 .button:hover {
   background: rgb(145,32,45);
+}
+
+/* 8. Occasion */
+.occasion-section {
+  text-align: center;
+  padding: 50px 0 80px;
+}
+
+.occasion-section .big-text {
+  color: #C30016;
+  margin-bottom: 10px;
+}
+
+.occasion-section .big-text:after {
+    margin: 30px auto;
+    background: #C30016;
 }
 
 /* 9. Footer */
