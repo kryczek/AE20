@@ -474,6 +474,9 @@ a.watch-link:hover .zmdi-hc-fw {
   padding: 10px 20px 0px;
 }
 
+.carusel-section .watch-link{
+  color: #39393A;
+}
 /* 9. Occasion */
 .occasion-section {
   text-align: center;
