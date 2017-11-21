@@ -7,7 +7,8 @@
   6. Expectations
   7. Author
   8. Occasion
-  9. Footer
+  9. Video Carusel
+  10. Footer
 */
 
 /* 1. General Style */
@@ -299,7 +300,9 @@ a.watch-link:hover .zmdi-hc-fw {
     background: #C30016;
 }
 
-/* 9. Footer */
+/* 9. Video Carusel */
+
+/* 10. Footer */
 footer {
   background: #004EFF;
   padding: 35px 0;
