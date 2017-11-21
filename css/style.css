@@ -122,6 +122,13 @@ i.zmdi {
     font-weight: bold;
 }
 
+@media screen and (max-width: 425px) {
+  .big-text {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
 /* 3. Header */
 .header-section {
   background: url(../img/header-cover.png) 70% 50% no-repeat;
@@ -158,6 +165,12 @@ a:hover .zmdi-hc-fw {
   margin-left: 30px;
 }
 
+@media screen and (max-width: 425px) {
+  #anchor-link {
+    display: none;
+  }
+}
+
 /* 4. Buttons */
 .button {
   background: #C30016;
@@ -182,6 +195,23 @@ a:hover .zmdi-hc-fw {
 
 .button:hover {
   background: rgb(145,32,45);
+}
+
+@media screen and (max-width: 1024px) {
+  .button {
+      font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+ .hidde-mobile-425,
+  .button-long-width {
+      display: none;
+  }
+
+  .align-right {
+    text-align: center;
+}
 }
 
 /* 5. Features */
@@ -219,6 +249,12 @@ a:hover .zmdi-hc-fw {
 
 .features-section > div > div > div:nth-child(4) > i {
   padding: 14px 17px;
+}
+
+@media screen and (max-width: 1024px) {
+  .features-section .zmdi-hc-fw {
+      margin: 0px 10px 90px 0px;
+  }
 }
 
 /* 6. Expectations */
@@ -287,6 +323,45 @@ a.watch-link:hover .zmdi-hc-fw {
   margin-left: 10px;
 }
 
+@media screen and (max-width: 1280px) {
+  ul.expect-list{
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .padding-content {
+      padding: 4% !important;
+  }
+
+  .watch-box {
+      text-align: center;
+      margin: 60% auto 60% auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .watch-box {
+    margin: 40% auto 60% auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .car-photo {
+      margin-top: 50px;
+      max-height: 500px !important;
+      min-height: 500px !important;
+      height: 500px !important;
+  }
+  li {
+    font-size: 14px;
+  }
+  .expect-list .zmdi-hc-fw {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+}
+
 /* 7. Author */
 
 .author-photo {
@@ -296,6 +371,24 @@ a.watch-link:hover .zmdi-hc-fw {
   -moz-background-size: 250%;
   -o-background-size: 250%;
   background-size: 250%;
+}
+
+@media screen and (max-width: 1024px) {
+  .author-photo {
+      min-height: 750px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .author-photo {
+      min-height: 750px !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .author-photo {
+      min-height: 550px !important;
+  }
 }
 
 /* 8. Video Carusel */
@@ -480,6 +573,44 @@ a.watch-link:hover .zmdi-hc-fw {
 .carusel-section .watch-link{
   color: #39393A;
 }
+
+@media screen and (max-width: 1024px) {
+  .csslider > .navigation {
+    padding: 4%;
+  }
+
+  .carusel-section .watch-box {
+    margin: 30% 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section.carusel-section {
+      margin-top: 50px;
+  }
+
+  .hidde-mobile {
+    display: none;
+  }
+
+  .carusel-section .watch-box {
+    margin: 15% 50%;
+}
+}
+
+@media screen and (max-width: 425px) {
+  .csslider > .navigation {
+      width: 100%;
+      min-height: 50px;
+  }
+
+  .csslider > ul {
+    position: relative;
+    height: 327px;
+    width: 100%;
+  }
+}
+
 /* 9. Occasion */
 .occasion-section {
   text-align: center;
@@ -544,4 +675,16 @@ footer {
 .popup .content {
   max-height: 30%;
   overflow: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .popup {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .popup {
+    width: 90%;
+  }
 }
