@@ -9,6 +9,44 @@
     <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,500" rel="stylesheet">
+
+		<script>
+			$(document).ready(function(){
+
+
+				$(".save_form").click(function(){
+					submit_form();
+				});
+
+				$('#form_email').keypress(function (e) {
+				  if (e.which == 13) {
+				   	submit_form();
+				    return false;    //<---- Add this line
+				  }
+				});
+
+				function submit_form(){
+					 $(".save_form").append('<img src="/strona/_assets/images/loading.gif" style="width:250px;margin-top:-147px;position:absolute;margin-left:130px;" class="loading_animation" />').hide().fadeIn();
+
+						// validate
+						$.post( "/strona/add_contact.php", $("#form_fields").serialize() ,function( data ) {
+							if(data.status==1){
+							 	window.location.replace('https://akademiaexpertow.pl/strona/funnel_redirections.php');
+							}else{
+								sweetAlert('Ups...',data.info, 'error');
+							   $(".loading_animation").fadeOut();
+							   $(".save_form").show();
+							   $(".loading_animation").hide();
+
+							}
+						},"json");
+						return false;
+				}
+
+
+			});
+			</script>
+
 	</head>
 
 	<body>
@@ -124,7 +162,19 @@
 					</div>
 				</div>
 			</section>
-
+			<form id="form_fields">
+			<input type="hidden" name="tag" value="MARKETER">
+			<input type="hidden" name="fcode" value="marketer">
+			<input type="hidden" name="ecode" value="prezent">
+			<div class="modal-body">
+			<h2 style="text-align: center">Wpisz swój adres email</h2>
+			<div class="form-group">
+			<input type="text" class="form-control" style="height:50px !important;font-size:25px" value="" placeholder="email" name="email" id="form_email" autocomplete="on">
+			</div>
+			<div style="text-align:center;">
+			<div class="orange_btn"><a href="#" class="save_form" style="min-height:52px !important;padding:20 !important;margin:0 !important;line-height: 50px !important;height:20px !important;min-width:250px;">DALEJ</a></div>
+			</div>
+			</div> </form>
 			<section class="occasion-section">
 				<div class="container-860">
 					<h2>Okazja</h2>
@@ -138,7 +188,6 @@
 				</div>
 			</section>
 		</main>
-
 		<footer>
 			<p class="text-white">
 				Akademia Expertów 2.0 (C) Wszelkie prawa zastrzeżone. Created with  by Paweł Danielewski
