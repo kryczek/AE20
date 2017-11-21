@@ -418,6 +418,51 @@ a.watch-link:hover .zmdi-hc-fw {
   white-space: normal;
 }
 
+.video {
+  width: 100%;
+  height: 200%;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+.video1 {
+  background: url(../img/video1.png) center center no-repeat;
+}
+
+.video2 {
+  background: url(../img/video2.png) center center no-repeat;
+}
+
+.video3 {
+  background: url(../img/video3.png) center center no-repeat;
+}
+
+.video4 {
+  background: url(../img/video4.png) center center no-repeat;
+}
+
+.video5 {
+  background: url(../img/video5.png) center center no-repeat;
+}
+
+.video6 {
+  background: url(../img/video6.png) center center no-repeat;
+}
+
+.video7 {
+  background: url(../img/video7.png) center center no-repeat;
+}
+
+.video8 {
+  background: url(../img/video8.png) center center no-repeat;
+}
+
+.video9 {
+  background: url(../img/video9.png) center center no-repeat;
+}
+
 /* 9. Occasion */
 .occasion-section {
   text-align: center;
