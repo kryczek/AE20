@@ -474,6 +474,10 @@ a.watch-link:hover .zmdi-hc-fw {
   padding: 10px 20px 0px;
 }
 
+.carusel-section .play-cirle .zmdi-hc-fw {
+  color: white;
+}
+
 .carusel-section .watch-link{
   color: #39393A;
 }
