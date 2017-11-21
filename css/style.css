@@ -298,6 +298,10 @@ a.watch-link:hover .zmdi-hc-fw {
 }
 
 /* 8. Video Carusel */
+.carusel-section .col-lg-4 {
+  padding: 0px;
+}
+
 .csslider {
   display: inline-block;
   text-align: left;
