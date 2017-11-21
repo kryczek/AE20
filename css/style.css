@@ -347,14 +347,11 @@ a.watch-link:hover .zmdi-hc-fw {
 }
 .csslider > ul {
   position: relative;
-  width: 820px;
   height: 420px;
   z-index: 1;
   font-size: 0;
   line-height: 0;
   background-color: red;
-  border: 10px solid blue;
-  margin: 0 auto;
   padding: 0;
   overflow: hidden;
   white-space: nowrap;
@@ -384,7 +381,6 @@ a.watch-link:hover .zmdi-hc-fw {
 
 .csslider > .navigation {
   position: relative;
-  left: 50%;
   z-index: 10;
   font-size: 0;
   line-height: 0;
@@ -395,9 +391,7 @@ a.watch-link:hover .zmdi-hc-fw {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-.csslider > .navigation > div {
-  margin-left: -100%;
+  background-color: #004EFF;
 }
 .csslider > .navigation label {
   position: relative;
@@ -418,7 +412,7 @@ a.watch-link:hover .zmdi-hc-fw {
   top: 50%;
   margin-left: -6px;
   margin-top: -6px;
-  background: #71ad37;
+  background: pink;
   border-radius: 50%;
   padding: 6px;
   opacity: 0;
