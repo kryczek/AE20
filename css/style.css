@@ -122,6 +122,12 @@ i.zmdi {
     font-weight: bold;
 }
 
+@media screen and (max-width: 1080px) {
+  .padding-content {
+      padding: 4% !important;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .big-text {
     font-size: 28px;
@@ -268,7 +274,7 @@ a:hover .zmdi-hc-fw {
   padding: 14px 17px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .features-section .zmdi-hc-fw {
       margin: 0px 10px 90px 0px;
   }
@@ -416,10 +422,10 @@ a.watch-link:hover .zmdi-hc-fw {
 .author-photo {
   min-height: 889px !important;
   background: url(../img/pawel-foto.jpg) 40% 50% no-repeat;
-  -webkit-background-size: 250%;
-  -moz-background-size: 250%;
-  -o-background-size: 250%;
-  background-size: 250%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {
