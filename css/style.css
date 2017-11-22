@@ -193,6 +193,7 @@ a:hover .zmdi-hc-fw {
   text-decoration: none;
   font-weight: 900;
   transition: all 0.3s ease;
+  white-space: nowrap;
 }
 
 .button-long-width {
