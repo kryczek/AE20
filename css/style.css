@@ -169,6 +169,16 @@ a:hover .zmdi-hc-fw {
   #anchor-link {
     display: none;
   }
+
+  .header-section h2 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header-section .container-1220 {
+      padding: 3px;
+  }
 }
 
 /* 4. Buttons */
@@ -211,7 +221,13 @@ a:hover .zmdi-hc-fw {
 
   .align-right {
     text-align: center;
+  }
 }
+
+@media screen and (max-width: 320px) {
+  .button-normal-width {
+      padding: 18px 25px;
+  }
 }
 
 /* 5. Features */
@@ -359,7 +375,39 @@ a.watch-link:hover .zmdi-hc-fw {
   .expect-list .zmdi-hc-fw {
     margin-left: 0px;
     margin-right: 5px;
+  }
 }
+
+@media screen and (max-width: 375px) {
+  li {
+    font-size: 13px;
+  }
+
+  .expect-list li {
+      line-height: 20px;
+      margin-bottom: 20px;
+  }
+
+  .watch-box {
+    margin: 60% auto 60% auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  li {
+      font-size: 16px;
+  }
+
+  .expect-list li {
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .expect-list .zmdi-hc-fw {
+    margin-left: -25px;
+    position: absolute;
+  }
 }
 
 /* 7. Author */
@@ -388,6 +436,12 @@ a.watch-link:hover .zmdi-hc-fw {
 @media screen and (max-width: 425px) {
   .author-photo {
       min-height: 550px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .author-photo {
+      min-height: 500px !important;
   }
 }
 
@@ -608,6 +662,16 @@ a.watch-link:hover .zmdi-hc-fw {
     position: relative;
     height: 327px;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .csslider > .navigation {
+      padding: 8% 4%;
+  }
+
+  .carusel-section .watch-box {
+    margin: 20% 45%;
   }
 }
 
