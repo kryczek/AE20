@@ -166,6 +166,10 @@ a:hover .zmdi-hc-fw {
 }
 
 @media screen and (max-width: 425px) {
+  .header-section {
+    background: url(../img/header-cover.png) top left no-repeat;
+  }
+  
   #anchor-link {
     display: none;
   }
