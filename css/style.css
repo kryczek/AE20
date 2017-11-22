@@ -176,7 +176,7 @@ a:hover .zmdi-hc-fw {
 }
 
 @media screen and (max-width: 320px) {
-  .header-section .container-1220 {
+  .container-1220 {
       padding: 3px;
   }
 }
