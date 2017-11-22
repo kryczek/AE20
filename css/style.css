@@ -226,7 +226,7 @@ a:hover .zmdi-hc-fw {
 
 @media screen and (max-width: 320px) {
   .button-normal-width {
-      padding: 18px 25px;
+      padding: 18px 18px;
   }
 }
 
