@@ -26,7 +26,7 @@ h2 {
   font-size: 26px;
   font-family: 'Muli', sans-serif;
   font-weight: 900;
-  line-height: 32px;
+  line-height: 0px;
 }
 
 h3 {
@@ -139,6 +139,10 @@ i.zmdi {
   color: white;
 }
 
+.font-68 {
+  font-size: 68px !important;
+}
+
 @media screen and (max-width: 1080px) {
   .padding-content {
       padding: 4% !important;
@@ -146,6 +150,10 @@ i.zmdi {
 }
 
 @media screen and (max-width: 425px) {
+  h2 {
+    line-height: 32px;
+  }
+  
   .big-text {
     font-size: 28px;
     line-height: 32px;
@@ -229,6 +237,16 @@ a:hover .zmdi-hc-fw {
 
 .button:hover {
   background: rgb(145,32,45);
+}
+
+.blue-background .button {
+  background: white;
+  color: #C30016;
+}
+
+.blue-background .button:hover {
+  background: #C30016;
+  color: white;
 }
 
 @media screen and (max-width: 1024px) {
@@ -719,8 +737,8 @@ a.watch-link:hover .zmdi-hc-fw {
 }
 
 .occasion-section .big-text:after {
-    margin: 30px auto;
-    background: white;
+  margin: 30px auto;
+  background: white;
 }
 
 .gray-background {
@@ -736,8 +754,13 @@ a.watch-link:hover .zmdi-hc-fw {
 }
 
 .gray-background .big-text:after {
-    margin: 30px auto;
-    background: #C30016;
+  margin: 30px auto;
+  background: #C30016;
+}
+
+.blue-background .big-text:after {
+  margin: 30px auto;
+  background: white;
 }
 
 /* 10. Footer */
@@ -853,6 +876,6 @@ footer {
 }
 
 .info-box {
-  padding: 50px !important;
+  padding: 20px !important;
   text-align: center !important;
 }
