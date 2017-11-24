@@ -849,5 +849,10 @@ footer {
   -o-background-size: cover;
   background-size: cover;
   min-height: 502px;
-  padding: 30px 0px;
+  padding: 50px 0px;
+}
+
+.info-box {
+  padding: 50px !important;
+  text-align: center !important;
 }
