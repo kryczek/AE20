@@ -120,6 +120,14 @@ p.big-text:after {
     height: 2px;
 }
 
+p.big-text.no-after:after {
+    content: '';
+    display: block;
+    margin: 0px 0px;
+    width: 0;
+    height: 0;
+}
+
 .small-text {
   font-size: 26px;
   font-family: 'Work Sans', sans-serif;
@@ -146,6 +154,10 @@ i.zmdi {
 
 .font-68 {
   font-size: 68px !important;
+}
+
+.space-element {
+  height: 30%;
 }
 
 @media screen and (max-width: 1080px) {
@@ -906,6 +918,15 @@ footer {
   margin-top: -10px;
 }
 
+.minus-20-margin-top {
+  margin-top: -20px;
+}
+
 .what-you-get-section .padding-content {
       padding: 8% 4% !important;
+}
+
+.blue-background .circle-check {
+  border: 1px solid white;
+  font-weight: normal;
 }
