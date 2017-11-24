@@ -188,8 +188,20 @@ i.zmdi {
 
 @media screen and (max-width: 425px) {
   .big-text {
-    font-size: 28px;
+    font-size: 28px !important;
     line-height: 32px;
+  }
+
+  .space-element {
+    height: 0%;
+  }
+
+  .col-sm-2 {
+    width: 20% !important;
+  }
+
+  .col-sm-10 {
+    width: 80% !important;
   }
 }
 
@@ -902,6 +914,20 @@ footer {
   margin-left: 0px;
 }
 
+@media screen and (max-width: 425px) {
+  .small-timer .zmdi-hc-fw,
+  .small-timer {
+      font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .small-timer .zmdi-hc-fw,
+  .small-timer {
+      font-size: 15px;
+  }
+}
+
 /* 12. No Retransmission */
 .camera-photo {
   background: url(../img/camera.png) center center no-repeat;
@@ -924,6 +950,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .camera-photo {
+    padding: 20px;
+  }
+}
+
 
 /* 13. What you get */
 .check-box {
@@ -938,6 +970,7 @@ footer {
   height: 63px;
   padding: 30%;
 }
+
 .circle-check.zmdi-hc-fw {
   margin-left: 0px;
 }
@@ -964,6 +997,11 @@ footer {
   margin-top: 12px;
 }
 
+.what-you-get-section #anchor-link {
+  display: block !important;
+    white-space: nowrap;
+}
+
 @media screen and (max-width: 1080px) {
   .circle-check {
       padding: 50%;
@@ -973,5 +1011,33 @@ footer {
 @media screen and (max-width: 768px) {
   .circle-check {
       padding: 25% 29%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .circle-check {
+      padding: 45%;
+  }
+  .mobile-margin-top-minus-15 {
+    margin-top: -15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .circle-check {
+      padding: 55%;
+  }
+  .avatar {
+    width: 150%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .circle-check {
+    width: 50px !important;
+    height: 50px;
+  }
+  .what-you-get-section .blue-background #anchor-link {
+    margin-left: -55px;
   }
 }
