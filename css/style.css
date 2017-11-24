@@ -11,6 +11,7 @@
   10. Footer
   11. Timer
   12. No Retransmission
+  13. What you get
 */
 
 /* 1. General Style */
@@ -153,7 +154,7 @@ i.zmdi {
   h2 {
     line-height: 32px;
   }
-  
+
   .big-text {
     font-size: 28px;
     line-height: 32px;
@@ -879,3 +880,6 @@ footer {
   padding: 20px !important;
   text-align: center !important;
 }
+
+/* 13. What you get */
+.what-you-get-section {}
