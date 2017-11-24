@@ -429,7 +429,12 @@ a.watch-link:hover .zmdi-hc-fw {
   background-size: cover;
 }
 .photo-flip {
-  transform:scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 @media screen and (max-width: 1024px) {
@@ -700,6 +705,10 @@ a.watch-link:hover .zmdi-hc-fw {
 .occasion-section .big-text:after {
     margin: 30px auto;
     background: white;
+}
+
+.gray-background {
+  background-color: rgb(246,246,246);
 }
 
 /* 10. Footer */
