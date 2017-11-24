@@ -100,6 +100,10 @@ a {
   color: white
 }
 
+.text-blue {
+  color: #004EFF;
+}
+
 .big-text {
   font-size: 42px;
   font-family: 'Work Sans', sans-serif;
@@ -884,6 +888,10 @@ footer {
 /* 13. What you get */
 .what-you-get-section {}
 
+.check-box {
+  padding: 20px 0px;
+}
+
 .circle-check {
   color: #004EFF;
   border-radius: 100%;
@@ -894,4 +902,8 @@ footer {
 }
 .circle-check.zmdi-hc-fw {
   margin-left: 0px;
+}
+
+.minus-10-margin-top {
+    margin-top: -10px;
 }
