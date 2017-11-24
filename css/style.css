@@ -10,6 +10,7 @@
   9. Occasion
   10. Footer
   11. Timer
+  12. No Retransmission
 */
 
 /* 1. General Style */
@@ -25,7 +26,7 @@ h2 {
   font-size: 26px;
   font-family: 'Muli', sans-serif;
   font-weight: 900;
-  line-height: 0px;
+  line-height: 32px;
 }
 
 h3 {
@@ -839,3 +840,5 @@ footer {
   font-weight: normal;
   margin-left: 0px;
 }
+
+/* 12. No Retransmission */
