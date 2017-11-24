@@ -123,6 +123,15 @@ i.zmdi {
     font-weight: bold;
 }
 
+.blue-background {
+  background-color: #004EFF;
+  color: white;
+}
+
+.blue-background i.zmdi {
+  color: white;
+}
+
 @media screen and (max-width: 1080px) {
   .padding-content {
       padding: 4% !important;
