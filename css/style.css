@@ -842,3 +842,12 @@ footer {
 }
 
 /* 12. No Retransmission */
+.camera-photo {
+  background: url(../img/camera.png) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 502px;
+  padding: 30px 0px;
+}
