@@ -428,6 +428,9 @@ a.watch-link:hover .zmdi-hc-fw {
   -o-background-size: cover;
   background-size: cover;
 }
+.photo-flip {
+  transform:scaleX(-1);
+}
 
 @media screen and (max-width: 1024px) {
   .author-photo {
