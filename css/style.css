@@ -13,6 +13,7 @@
   12. No Retransmission
   13. What you get
   14. Triagle box
+  15. Autendion
 */
 
 /* 1. General Style */
@@ -157,6 +158,10 @@ i.zmdi {
   font-size: 68px !important;
 }
 
+.aling-center {
+  text-align: center;
+}
+
 .space-element {
   height: 30%;
 }
@@ -218,6 +223,17 @@ i.zmdi {
   color: white;
 }
 
+.header-section2 {
+  background: url(../img/header-cover2.png) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 852px;
+  padding: 10px 0px;
+  color: white;
+}
+
 img.logo {
   width: 100%;
   height: auto;
@@ -247,6 +263,7 @@ a:hover .zmdi-hc-fw {
     display: none;
   }
 
+  .header-section2 h2,
   .header-section h2 {
     margin-top: 30px;
   }
@@ -1081,4 +1098,9 @@ footer {
   .triagle-box::after{
     left: 43%;
   }
+}
+
+/* 15. Autention */
+.red-background {
+  background: #C30016;
 }
