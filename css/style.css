@@ -160,17 +160,33 @@ i.zmdi {
   height: 30%;
 }
 
+@media screen and (max-width: 1440px) {
+  .space-element {
+    height: 35%;
+  }
+}
+
 @media screen and (max-width: 1080px) {
   .padding-content {
       padding: 4% !important;
   }
-}
 
-@media screen and (max-width: 425px) {
+  .space-element {
+    height: 39%;
+  }
+
   h2 {
     line-height: 32px;
   }
+}
 
+@media screen and (max-width: 768px) {
+  .space-element {
+    height: 5%;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .big-text {
     font-size: 28px;
     line-height: 32px;
@@ -497,6 +513,10 @@ a.watch-link:hover .zmdi-hc-fw {
 @media screen and (max-width: 768px) {
   .author-photo {
       min-height: 750px !important;
+  }
+
+  .photo-flip {
+    margin-top: 25px;
   }
 }
 
@@ -873,6 +893,7 @@ footer {
 
 .small-timer span {
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .small-timer .zmdi-hc-fw {
@@ -896,6 +917,13 @@ footer {
   padding: 20px !important;
   text-align: center !important;
 }
+
+@media screen and (max-width: 768px) {
+  .camera-photo {
+    padding: 50px 50px;
+  }
+}
+
 
 /* 13. What you get */
 .check-box {
@@ -934,4 +962,16 @@ footer {
 .avatar {
   width: 100%;
   margin-top: 12px;
+}
+
+@media screen and (max-width: 1080px) {
+  .circle-check {
+      padding: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .circle-check {
+      padding: 25% 29%;
+  }
 }
