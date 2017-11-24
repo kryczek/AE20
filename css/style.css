@@ -417,6 +417,7 @@ a:hover .zmdi-hc-fw {
     margin-left: 0px;
   }
 
+span.play-cirle,
 a.play-cirle {
   display: block;
   width: 59px;
@@ -425,6 +426,13 @@ a.play-cirle {
   margin: 0 auto 42px auto;
   border-radius: 100%;
   border: 1px solid white;
+}
+
+span.play-cirle {
+  color: white;
+  font-size: 42px;
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
 }
 
 a.play-cirle:hover {
