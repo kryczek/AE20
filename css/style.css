@@ -64,6 +64,12 @@ a {
   padding: 20px;
 }
 
+.container-750 {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .row {
   margin: 0px !important;
 }
