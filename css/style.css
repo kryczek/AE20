@@ -883,3 +883,15 @@ footer {
 
 /* 13. What you get */
 .what-you-get-section {}
+
+.circle-check {
+  color: #004EFF;
+  border-radius: 100%;
+  border: 1px solid #004EFF;
+  width: 63px !important;
+  height: 63px;
+  padding: 40%;
+}
+.circle-check.zmdi-hc-fw {
+  margin-left: 0px;
+}
