@@ -12,6 +12,7 @@
   11. Timer
   12. No Retransmission
   13. What you get
+  14. Triagle box
 */
 
 /* 1. General Style */
@@ -1040,4 +1041,32 @@ footer {
   .what-you-get-section .blue-background #anchor-link {
     margin-left: -55px;
   }
+}
+
+/* 14. Triagle box */
+.triagle-box {
+    font-weight: bold;
+    border: 3px solid #004EFF;
+    padding: 15px;
+    margin: 60px 0px;
+    box-sizing: border-box;
+    position: relative;
+    background: rgb(246,246,246);
+}
+
+.triagle-box::after{
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-left: 0;
+  bottom: -28px;
+  left: 48%;
+  box-sizing: border-box;
+  background: rgb(246,246,246);
+  border: 9px solid black;
+  border-color: transparent transparent rgb(246,246,246) rgb(246,246,246);
+  transform-origin: 0 0;
+  transform: rotate(-45deg);
+  box-shadow: -3.5px 3.5px 0px 0px #004EFF;
 }
