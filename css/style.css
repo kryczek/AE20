@@ -1070,3 +1070,15 @@ footer {
   transform: rotate(-45deg);
   box-shadow: -3.5px 3.5px 0px 0px #004EFF;
 }
+
+@media screen and (max-width: 425px) {
+  .triagle-box::after{
+    left: 45%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .triagle-box::after{
+    left: 43%;
+  }
+}
