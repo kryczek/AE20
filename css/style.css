@@ -269,6 +269,7 @@ a:hover .zmdi-hc-fw {
   margin-left: 30px;
 }
 
+.no-retransmission-section .big-text:after,
 .header-section2 .big-text:after,
 .header-section3 .big-text:after {
   margin: 36px auto;
@@ -1127,4 +1128,8 @@ footer {
 /* 15. Autention */
 .red-background {
   background: #C30016;
+}
+
+.autention-left-after p.big-text:after {
+    margin: 36px 0px !important;
 }
