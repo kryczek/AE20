@@ -209,6 +209,9 @@ i.zmdi {
   .col-sm-10 {
     width: 80% !important;
   }
+  .margin-bottom-mobile {
+    margin-bottom: 50px;
+  }
 }
 
 /* 3. Header */
@@ -1129,7 +1132,6 @@ footer {
 .red-background .watch-box {
   text-align: center;
   margin: 40% auto 0% auto;
-  vertical-align: middle;
 }
 
 span.play-cirle {
@@ -1145,4 +1147,16 @@ span.play-cirle {
   font-family: 'Muli', sans-serif;
   font-weight: normal;
   padding: 30px 0px;
+}
+
+@media screen and (max-width: 1080px) {
+  .red-background .watch-box {
+    margin: 60% auto 0% auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .red-background {
+    display: none;
+  }
 }
