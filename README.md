@@ -10,4 +10,5 @@
 
 ---
 Projects for [Akademia Exprestów](https://akademiaexpertow.pl/) were developed in collaboration with [WBIZNES](https://wojciechbizub.pl).
+
 UX/UI Design: [Tomasz Osowski](https://www.behance.net/3backup). Front-end web development: [Krzysztof Kryczek](http://kryczek.pl).
