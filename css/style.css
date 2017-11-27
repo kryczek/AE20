@@ -14,6 +14,7 @@
   13. What you get
   14. Triagle box
   15. Autendion
+  16. Form
 */
 
 /* 1. General Style */
@@ -1159,4 +1160,45 @@ span.play-cirle {
   .red-background {
     display: none;
   }
+}
+
+/* 16. Form */
+input[type="text"] {
+  width: 400px;
+  height: 60px;
+  border: 2px solid rgb(0, 78, 255);
+  border-radius: 45.5px;
+  padding: 0px 80px 0px 40px;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  color: #004EFF;
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  color: #004EFF;
+}
+
+input[type="submit"] {
+  background: #C30016;
+  border-radius: 45.5px;
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 900;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  padding: 18px 35px 16px 35px;
+  outline: none;
+  border: 4px solid #C30016;
+  margin-left: -65px;
+}
+
+input[type="submit"]:hover {
+  background: rgb(145,32,45);
+  border: 4px solid rgb(145,32,45);
 }
