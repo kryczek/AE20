@@ -8,4 +8,6 @@
 
 [Project no. 4](https://kryczek.github.io/AE20/index4.html)
 
-Projects for [Akademia Exprestów](https://akademiaexpertow.pl/). Design by [Tomasz Osowski](https://www.behance.net/3backup). Completed by [Krzysztof Kryczek](http://kryczek.pl). Colaborate with [WBIZNES](https://wojciechbizub.pl)
+---
+
+UX/UI Design: [Tomasz Osowski](https://www.behance.net/3backup). Front-end web development: [Krzysztof Kryczek](http://kryczek.pl). Projects for [Akademia Exprestów](https://akademiaexpertow.pl/) were developed in collaboration with [WBIZNES](https://wojciechbizub.pl)
