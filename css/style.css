@@ -434,7 +434,6 @@ a:hover .zmdi-hc-fw {
     margin-left: 0px;
   }
 
-span.play-cirle,
 a.play-cirle {
   display: block;
   width: 59px;
@@ -443,13 +442,6 @@ a.play-cirle {
   margin: 0 auto 42px auto;
   border-radius: 100%;
   border: 1px solid white;
-}
-
-span.play-cirle {
-  color: white;
-  font-size: 42px;
-  font-family: 'Muli', sans-serif;
-  font-weight: normal;
 }
 
 a.play-cirle:hover {
@@ -1132,4 +1124,25 @@ footer {
 
 .autention-left-after p.big-text:after {
     margin: 36px 0px !important;
+}
+
+.red-background .watch-box {
+  text-align: center;
+  margin: 40% auto 0% auto;
+  vertical-align: middle;
+}
+
+span.play-cirle {
+  display: block;
+  width: 123px;
+  height: 123px;
+  text-align: center;
+  margin: 0 auto 42px auto;
+  border-radius: 100%;
+  border: 1px solid white;
+  color: white;
+  font-size: 42px;
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  padding: 30px 0px;
 }
