@@ -234,6 +234,17 @@ i.zmdi {
   color: white;
 }
 
+.header-section3 {
+  background: url(../img/header-cover3.png) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 852px;
+  padding: 10px 0px;
+  color: white;
+}
+
 img.logo {
   width: 100%;
   height: auto;
@@ -256,6 +267,11 @@ img.logo {
 
 a:hover .zmdi-hc-fw {
   margin-left: 30px;
+}
+
+.header-section2 .big-text:after,
+.header-section3 .big-text:after {
+  margin: 36px auto;
 }
 
 @media screen and (max-width: 425px) {
