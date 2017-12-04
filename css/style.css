@@ -447,6 +447,10 @@ a:hover .zmdi-hc-fw {
   margin: 40% auto 60% auto;
 }
 
+.check-circle .watch-box {
+  margin: 50% auto;
+}
+
 .carusel-section .zmdi-hc-fw,
 .watch-box .zmdi-hc-fw {
     margin-left: 0px;
