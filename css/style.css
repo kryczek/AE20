@@ -424,6 +424,16 @@ a:hover .zmdi-hc-fw {
   background-size: cover;
 }
 
+.get-photo {
+  background: url(../img/header-cover3.png) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 687px !important;
+  max-height: 687px;
+}
+
 .car-photo a {
   color: white;
 }
@@ -489,6 +499,7 @@ a.watch-link:hover .zmdi-hc-fw {
 }
 
 @media screen and (max-width: 425px) {
+  .get-photo,
   .car-photo {
       margin-top: 50px;
       max-height: 500px !important;
