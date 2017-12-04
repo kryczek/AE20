@@ -8,6 +8,8 @@
 
 [Project no. 4](https://kryczek.github.io/AE20/index4.html)
 
+[Project no. 5](https://kryczek.github.io/AE20/index5.html)
+
 ---
 Projects for [Akademia Exprestów](https://akademiaexpertow.pl/) were developed in collaboration with [WBIZNES](https://wojciechbizub.pl).
 
