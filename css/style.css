@@ -514,9 +514,14 @@ a.watch-link:hover .zmdi-hc-fw {
       min-height: 500px !important;
       height: 500px !important;
   }
+  .check-circle {
+    margin-top: 50px;
+  }
+  
   li {
     font-size: 14px;
   }
+
   .expect-list .zmdi-hc-fw {
     margin-left: 0px;
     margin-right: 5px;
