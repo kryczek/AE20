@@ -177,6 +177,12 @@ i.zmdi {
   }
 }
 
+@media screen and (max-width: 1250px) {
+  .padding-content {
+      padding: 4% !important;
+  }
+}
+
 @media screen and (max-width: 1080px) {
   .padding-content {
       padding: 4% !important;
@@ -517,7 +523,7 @@ a.watch-link:hover .zmdi-hc-fw {
   .check-circle {
     margin-top: 50px;
   }
-  
+
   li {
     font-size: 14px;
   }
