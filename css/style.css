@@ -197,6 +197,13 @@ i.zmdi {
   }
 }
 
+@media screen and (max-width: 1010px) {
+  .padding-content {
+      padding: 3% !important;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .space-element {
     height: 5%;
